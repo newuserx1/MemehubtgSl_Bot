@@ -27,7 +27,7 @@ PM_TXT_ATT = "<b>Message from:</b> {}\n<b>Name:</b> {}\n\n{}"
 PM_TXT_ATTS = "<b>Message from:</b> {}\n<b>Name:</b> {}"
 PM_MED_ATT = "<b>Message from:</b> {} \n<b>Name:</b> {}\n<b>Caption</b>:{}"
 USER_DETAILS = "<b>FROM:</b>\nName: {} {}\nId: {}\nUname: @{}\nScam: {}\nRestricted: {}\nStatus: {}\nDc Id: {}"
-FORCESUB_TEXT = "**❌ Access Denied ❌**\n\nYou Must Join He\n♻️Join and Try Again.♻️"
+FORCESUB_TEXT = "**❌ Access Denied ❌**\n\nYou Must Join Here\n♻️Join and Try Again.♻️"
 HELP_STRING = "Meme Tiye nam dapam Mekata😒😂. Adminlata Msg Daanna One Nam ekat Mekata dapam 😒😂"
 START_STRING ="""
 Hi {}, Welcome to  MemeHub Telegram 🇱🇰 Official Bot.
