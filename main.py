@@ -706,7 +706,7 @@ async def pm_media(bot, message):
         return
     if await forcesub(bot, message):
        return
-    await message.reply_text(text=f"Ur Photo Sent To @{force_subchannel} Admins", reply_markup=CLOSE_BUTTON)
+    await message.reply_text(text=f"Ur Photo Sent To @memehubtgsl Admins", reply_markup=CLOSE_BUTTON)
     info = await bot.get_users(user_ids=message.from_user.id)
     reference_id = int(message.chat.id)
     msg=message.caption
@@ -880,7 +880,7 @@ async def tgm(bot, update):
         await bot.send_sticker(update.from_user.id, file_id, reply_markup=start_menu)
         TEXT = f"Hi {update.from_user.mention}, Welcome to  MemeHub Telegram 🇱🇰 Official Bot"
         RMB = START_BUTTON  
-        await bot.send_message(update.from_user.id, TEXT, reply_markup=RMB, disable_web_page_preview=True, quote=True)
+        await bot.send_message(update.from_user.id, TEXT, reply_markup=RMB, disable_web_page_preview=True)
         
     elif update.data == "cloc":
         if update.from_user.id not in AUTH_USERS:
