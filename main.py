@@ -979,7 +979,7 @@ async def answer(client, inline_query):
 Post By {inline_query.from_user.mention}
 """,
                     reply_markup=InlineKeyboardMarkup([[              
-                 InlineKeyboardButton('🍁 Owner 🍁', user_id="@N_Abeysinghe_2001")
+                 InlineKeyboardButton('🍁 Owner 🍁', callback_data="onf")
                  ],
                  [
                  InlineKeyboardButton('🐞 Report Bugs 🐞', user_id="1884885842")
@@ -1016,16 +1016,16 @@ Capa one nm join wenna 😈❤️
 **Post by**: {inline_query.from_user.mention}
 """,
                     reply_markup=InlineKeyboardMarkup([[              
-                 InlineKeyboardButton('MemeHub Telegram 🇱🇰', url="t.me/Memehubtgsl")
+                 InlineKeyboardButton('MemeHub Telegram 🇱🇰', url="https://t.me/Memehub_Premium")
                  ],
                  [
-                 InlineKeyboardButton('Owner 👑', user_id="@N_Abeysinghe_2001")
+                 InlineKeyboardButton('Owner 👑', callback_data="onf")
                  ],
                  [
                  InlineKeyboardButton('Official Bot🤖', user_id="@MemeHubTgSl_Bot")
                  ],
                  [
-                 InlineKeyboardButton("⚜️Special Entrance⚜️", url="https://t.me/+9lM0dqLZviI1ZWZl")
+                 InlineKeyboardButton("⚜️Special Entrance⚜️", url="https://t.me/+OqjQQB3kzS05NWY1")
                  ]])
                     
                         
