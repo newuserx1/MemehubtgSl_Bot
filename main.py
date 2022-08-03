@@ -882,6 +882,8 @@ async def tgm(bot, update):
         RMB = START_BUTTON  
         await bot.send_message(update.from_user.id, TEXT, reply_markup=RMB, disable_web_page_preview=True)
         
+    elif update.date == 'onf':
+        await update.answer('Owner Not Found 🫠', show_alert=True)
     elif update.data == "cloc":
         if update.from_user.id not in AUTH_USERS:
             await update.answer(
