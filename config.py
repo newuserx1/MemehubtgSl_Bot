@@ -58,7 +58,7 @@ BACK_BUTTONS = InlineKeyboardMarkup([[
                   ) 
 
 START_BUTTON = InlineKeyboardMarkup([[              
-                 InlineKeyboardButton('🍁 Owner 🍁', user_id='+94705650887')
+                 InlineKeyboardButton('🍁 Owner 🍁', callback_data="onf")
                  ],
                  [
                  InlineKeyboardButton(text="🌴 ʜᴇʟᴘ 🌴",callback_data="hlp"),
@@ -75,7 +75,7 @@ START_BUTTON = InlineKeyboardMarkup([[
                   )
 
 ADMIN_BTN = InlineKeyboardMarkup([[
-                 InlineKeyboardButton('Nirmal Abeysinghe', user_id="N_Abeysinghe_2001")
+                 InlineKeyboardButton('Nirmal Abeysinghe', callback_data="onf")
                  ],
                  [                 
                  InlineKeyboardButton('༒❣️☢️╣IrØή❂mคŇ╠☢️❣️༒ ', user_id="ImGishan")
