@@ -3,9 +3,45 @@
 <img src="https://telegra.ph/file/81f1836037d836bf6cfcb.jpg" width="520", height="520"></p>
 
 
-# DEPLOY TO HEROKU
-* [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-<br><br>
+
+### Deploy
+
+<details><summary><b>Deploy to Heroku</b></summary>
+<p>
+<br>
+<a href="https://heroku.com/deploy?template=https://github.com/TeamAlphaTgv/MemehubtgSl_Bot">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+</a>
+</p>
+</details>
+
+<details>
+  <summary><b>Deploy to Railway</b></summary>
+<br/>
+
+<p align="left">
+<a href="https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FTeamAlphaTg%2FMemehubtgSl_Bot"
+">
+     <img height="30px" src="https://railway.app/button.svg">
+  </a>
+</p>
+
+</a>
+</p>
+
+</details>
+
+<details>
+  <summary><b>Deploy in your VPS</b></summary>
+<br/>
+
+```sh
+$ git clone https://github.com/TeamAlphaTg/MemehubtgSl_Bot.git
+$ cd MemehubtgSl_Bot
+$ pip3 install -r requirements.txt
+# <create Variables Appropriately>
+$ python3 bot.py
+```
 
 </details>
 
