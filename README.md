@@ -30,7 +30,7 @@ CONTRIBUTIONS AND SUGGESTIONS ARE WELCOME !!
 
 
 * ### Support
-   - [@TR TECH GUIDE](https://t.me/trtechguide)
+   - [Team SL Bots Chat🇱🇰](https://t.me/SLBotsChat)
    - [┊𝙰𝙻𝙿𝙷𝙰 Botz Chat](https://t.me/AlphaTm_Botz_chat)
 
 * ### Thanks to
@@ -47,7 +47,7 @@ CONTRIBUTIONS AND SUGGESTIONS ARE WELCOME !!
    - [𝘿𝙚𝙣𝙪𝙬𝙖𝙣 🇱🇰](github.com/imdenuwan)
 
 # Contributors
-![GitHub Contributors Image](https://contrib.rocks/image?repo=TeamAlphaTg/Memehubtgsl_bot)
+[![Developer](https://contributors-img.web.app/image?repo=TeamAlphaTg/Memehubtgsl_bot)
 
 Powered By - [┊𝙰𝙻𝙿𝙷𝙰 么 ™ Bots 『🇱🇰』](https://t.me/AlphaTm_Botz)
            - [Team ┊𝙰𝙻𝙿𝙷𝙰 么](https://t.me/Team_Alpha_Devs/4)
