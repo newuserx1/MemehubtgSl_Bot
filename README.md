@@ -71,7 +71,7 @@ CONTRIBUTIONS AND SUGGESTIONS ARE WELCOME !!
    - [𝘿𝙚𝙣𝙪𝙬𝙖𝙣 🇱🇰](github.com/imdenuwan)
 
 # Contributors
-[![Developer](https://contributors-img.web.app/image?repo=TeamAlphaTg/Memehubtgsl_bot)
+![Developer](https://contributors-img.web.app/image?repo=TeamAlphaTg/Memehubtgsl_bot)
 
 Powered By - [┊𝙰𝙻𝙿𝙷𝙰 么 ™ Bots 『🇱🇰』](https://t.me/AlphaTm_Botz)
            - [Team ┊𝙰𝙻𝙿𝙷𝙰 么](https://t.me/Team_Alpha_Devs/4)
