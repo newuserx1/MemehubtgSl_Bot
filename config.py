@@ -164,14 +164,12 @@ ADMIN_BTN = InlineKeyboardMarkup([[
                  [
                  InlineKeyboardButton('𝕵𝕬𝖄 𝕬𝕲𝕽𝕰', user_id="AgreeAgree")
                  ],
-                 [                 
-                 [                 
+                 [                                 
                  InlineKeyboardButton('B_.x._.sh._.n._.x._ ⁪⁬⁮⁮⁮⁮ ‌‌‌‌', user_id="Revolution_will_not_be_Televised")
                  ],
                  [                 
                  InlineKeyboardButton('🔥ADMC⚡️⚡️THOR🔥', user_id="madushanka_Thor")
-                 ]]
-                  )
+                 ]])
 
 OWNER_BTN = InlineKeyboardMarkup([[              
                  InlineKeyboardButton('ONF', callback_data='onf')
