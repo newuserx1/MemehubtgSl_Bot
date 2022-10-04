@@ -15,10 +15,10 @@ API_ID = int(os.getenv("API_ID"))  # from https://my.telegram.org/apps
 API_HASH = os.getenv("API_HASH")  # from https://my.telegram.org/apps
 AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "1884885842 5115331277 5025877489 1202064253 1120271521").split())
 MONGO_URI = os.getenv("MONGO_URI")
-MAIN_CHANNEL = int(os.environ.get("MAIN_CHANNEL", "-1001618208549"))
+MAIN_CHANNEL = int(os.environ.get("MAIN_CHANNEL", "-1001732140760"))
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001618208549"))
 PRIVATE_LOG = int(os.environ.get("PRIVATE_LOG", "-1001660993748"))
-force_subchannel = os.getenv("FSUB", "memehubtgsl")
+force_subchannel = os.getenv("FSUB", "memehubtgsl_2")
 OWNER_ID = int(os.environ.get("OWNER_ID", "1884885842"))
 #Strings 
 WELCOME_TEXT = "Hello.. <b>{}</b>\n<code>Type your query here..\nI'll respond to your query as earliest</code> 😉\n\nуσυ ωαииα тσ киσω αвσυт мє😌? яєα∂ вєℓσω\n\nαвσυт @Gishankrishka:-\n •му иαмє:- Gishan Krishka \n •му αgє:- υикиσωи🌝\n •¢σмρυтєя ℓαиgυαgє:- ωєв ∂єνєℓσρмєит(ℓєαяиιиg), ρутнσи мσяє ѕσσи😁\n•¢нє¢к [About ༒❣️☢️╣IrØή❂mคŇ╠☢️❣️༒](https://t.me/Gishankrishka_Info_bot) fσя мσяє\n\nPlz Don't Send Stickers 🥲\nReason :- [This](https://t.me/ultchat/19589)"
@@ -74,10 +74,7 @@ START_BUTTON = InlineKeyboardMarkup([[
                  ]]
                   )
 
-ADMIN_BTN = InlineKeyboardMarkup([[
-                 InlineKeyboardButton('Nirmal Abeysinghe', callback_data="onf")
-                 ],
-                 [                 
+ADMIN_BTN = InlineKeyboardMarkup([[                 
                  InlineKeyboardButton('༒❣️☢️╣IrØή❂mคŇ╠☢️❣️༒ ', user_id="ImGishan")
                  ],
                  [                 
@@ -88,9 +85,6 @@ ADMIN_BTN = InlineKeyboardMarkup([[
                  ],
                  [                 
                  InlineKeyboardButton('DarkLucifer 么 ™', user_id="Dark_Iucifer")
-                 ],
-                 [                 
-                 InlineKeyboardButton('🌀*✩.𝗛𝗜𝗥𝗨.✩*🌀', user_id="hiru_malsh_2002")
                  ],
                  [
                  InlineKeyboardButton('𝙃𝙊𝙍𝘼 𝙋𝙐𝙎𝘼 ᖇḁͦj̥ͦḁͦṗȧƙకꫝꪖ', user_id="hora_pusa")
@@ -123,9 +117,6 @@ ADMIN_BTN = InlineKeyboardMarkup([[
                  InlineKeyboardButton('☠️𝘋𝘳.𝘚𝘵𝘳𝘰𝘮𝘦☠️', user_id="Dr_Strome")
                  ],
                  [                 
-                 InlineKeyboardButton('Pasindu Maleesha', user_id="PASINDU_M_WICK")
-                 ],
-                 [                 
                  InlineKeyboardButton('𝘿𝙚𝙫 𝙞𝙭𝘼𝘼𝙧', user_id="Mr_Dev_ixAAr")
                  ],
                  [
@@ -145,12 +136,6 @@ ADMIN_BTN = InlineKeyboardMarkup([[
                  ],
                  [
                  InlineKeyboardButton('#𝙇𝙚𝙥𝙩_𝙏𝙂 Kaveesha Nethmal', user_id="jason_spqr_roman_Kr")
-                 ],
-                 [                 
-                 InlineKeyboardButton('අකිල', user_id="akiyush")
-                 ],
-                 [                 
-                 InlineKeyboardButton('☬෴𝐃𝐀𝐑𝐊 ✠ 𝐋𝐎𝐑𝐃෴☬', url="tg://user?id=1390045267")
                  ],
                  [                 
                  InlineKeyboardButton(' 𝗩𝗶𝗻𝗶𝘁𝗵 𝗕𝗮𝘄𝗮𝗻𝘁𝗵𝗮', url="tg://user?id=1100376280")
@@ -180,8 +165,6 @@ ADMIN_BTN = InlineKeyboardMarkup([[
                  InlineKeyboardButton('𝕵𝕬𝖄 𝕬𝕲𝕽𝕰', user_id="AgreeAgree")
                  ],
                  [                 
-                 InlineKeyboardButton('', user_id="Dr_Strome")
-                 ],
                  [                 
                  InlineKeyboardButton('B_.x._.sh._.n._.x._ ⁪⁬⁮⁮⁮⁮ ‌‌‌‌', user_id="Revolution_will_not_be_Televised")
                  ],
@@ -191,7 +174,7 @@ ADMIN_BTN = InlineKeyboardMarkup([[
                   )
 
 OWNER_BTN = InlineKeyboardMarkup([[              
-                 InlineKeyboardButton('Nirmal Abeysinghe', user_id="N_Abeysinghe_2001")
+                 InlineKeyboardButton('ONF', callback_data='onf')
                  ]]
                   )               
 
