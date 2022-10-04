@@ -999,7 +999,7 @@ async def tgm(bot, update):
         await bot.send_sticker(rid, file_id)
         msg_id = process.id
         rid=update.message.caption.split()[2]
-        await bot.send_message(rid, text=f"🎉 [ᴛʜɪs](https://t.me/{force_subchannel}/{msg_id}) ᴘᴏsᴛ ᴀᴄᴄᴇᴘᴛᴇᴅ 🎉", disable_web_page_preview=True)
+        await bot.send_message(rid, text=f"🎉 ᴛʜɪs[🫡👇](https://t.me/{force_subchannel}/{msg_id}) ᴘᴏsᴛ ᴀᴄᴄᴇᴘᴛᴇᴅ 🎉")
         
         await update.answer(
              text="✅ᴍᴇssᴀɢᴇ ᴀᴄᴄᴇᴘᴛᴇᴅ",
@@ -1007,7 +1007,7 @@ async def tgm(bot, update):
         await bot.send_message(PRIVATE_LOG,text=f"""#APPROVE_LOG
 
 • **Of:** {update.from_user.mention} [`{update.from_user.id}`]
-• **Post:** https://t.me/{force_subchannel}/{msg_id}
+• **Post:** [🫡👇](https://t.me/{force_subchannel}/{msg_id})
 """)
 #--------------------------------------------------Inline------------------------------------------------#
 
