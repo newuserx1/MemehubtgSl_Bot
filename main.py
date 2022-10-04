@@ -31,6 +31,9 @@ from helper.heroku_helper import HerokuHelper
 from helper.fsub import forcesub
 from pyrogram.errors import UsernameInvalid, UsernameNotOccupied
 from pyrogram.types import Message
+from random import sample
+from alpha import pbot
+from pyrogram import *
 #--------------------------------------------------Db-------------------------------------------------#
 
 
@@ -932,7 +935,9 @@ async def tgm(bot, update):
         await bot.send_message(update.from_user.id, TEXT, reply_markup=RMB, disable_web_page_preview=True)
         
     elif update.data == 'onf':
-        await update.answer('Owner Not Found 🫠', show_alert=True)
+        members = [pp async for pp in pbot.get_chat_members(m.chat.id)]
+  	user1, user2 = sample(members, 2)
+	await update.answer(f'Our Owner Is {user1.user.first_name} 😂', show_alert=True)
     elif update.data == "cloc":
         if update.from_user.id not in AUTH_USERS:
             await update.answer(
