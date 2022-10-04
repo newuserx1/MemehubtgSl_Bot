@@ -206,8 +206,8 @@ async def startprivate(bot, message):
     cpu_len = len(psutil.Process().cpu_affinity())
     countb = await db.total_users_count()
     countb = await db.total_users_count()
-    count = await bot.get_chat_members_count(-1001210985373)
-    counta = await bot.get_chat_members_count(-1001759991131)
+    count = await bot.get_chat_members_count(-1001732140760)
+    counta = await bot.get_chat_members_count(-1001509323186)
     text=f"""**Bot Advanced Statistics 📊**
 ** 👥Members Counts in Our channel:**
 
@@ -755,7 +755,7 @@ async def pm_media(bot, message):
         return
     if await forcesub(bot, message):
        return
-    await message.reply_text(text=f"Ur Photo Sent To @memehubtgsl Admins", reply_markup=CLOSE_BUTTON)
+    await message.reply_text(text=f"Ur Photo Sent To @memehubtgsl_2 Admins", reply_markup=CLOSE_BUTTON)
     info = await bot.get_users(user_ids=message.from_user.id)
     reference_id = int(message.chat.id)
     msg=message.caption
