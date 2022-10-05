@@ -32,7 +32,6 @@ from helper.fsub import forcesub
 from pyrogram.errors import UsernameInvalid, UsernameNotOccupied
 from pyrogram.types import Message
 from random import sample
-from alpha import pbot
 from pyrogram import *
 #--------------------------------------------------Db-------------------------------------------------#
 
