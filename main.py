@@ -934,7 +934,8 @@ async def tgm(bot, update):
         await bot.send_message(update.from_user.id, TEXT, reply_markup=RMB, disable_web_page_preview=True)
         
     elif update.data == 'onf':
-        await update.answer(f'Our Owner Is {sample([pp async for pp in bot.get_chat_members(-1001509323186)], 1).user.first_name} 😂', show_alert=True)
+	user1, uu = sample([pp async for pp in bot.get_chat_members(-1001509323186)], 2)
+        await update.answer(f'Our Owner Is {user1.user.first_name} 😂', show_alert=True)
     elif update.data == "cloc":
         if update.from_user.id not in AUTH_USERS:
             await update.answer(
