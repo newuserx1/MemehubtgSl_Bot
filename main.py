@@ -711,8 +711,13 @@ async def replay_media(bot, message):
 
 @Client.on_message(filters.chat(-1001732140760) & filters.incoming)
 async def cbdel(bot, message):	
-	if 'ˡᶦᵏᵉ  ᶜᵒᵐᵐᵉⁿᵗ  ˢᵃᵛᵉ  ˢʰᵃʳᵉ' in message.caption:
-		await message.edit_caption(' ')
+	try:
+		if 'ˡᶦᵏᵉ  ᶜᵒᵐᵐᵉⁿᵗ  ˢᵃᵛᵉ  ˢʰᵃʳᵉ' in message.caption:
+			await message.edit_caption('@Memehubtgsl_bot')
+	except:
+		if 'ˡᶦᵏᵉ  ᶜᵒᵐᵐᵉⁿᵗ  ˢᵃᵛᵉ  ˢʰᵃʳᵉ' in message.caption:
+			await message.edit('@Memehubtgsl_bot')
+
 	
 	
 @Client.on_message(filters.private & filters.text)
