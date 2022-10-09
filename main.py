@@ -709,6 +709,12 @@ async def replay_media(bot, message):
     
     """)
 
+@Client.on_message(filters.chat(-1001732140760) & filters.incoming)
+async def cbdel(bot, message):	
+	if 'ˡᶦᵏᵉ  ᶜᵒᵐᵐᵉⁿᵗ  ˢᵃᵛᵉ  ˢʰᵃʳᵉ' in message.caption:
+		await message.edit_caption(' ')
+	
+	
 @Client.on_message(filters.private & filters.text)
 async def pm_text(bot, message):
     if message.from_user.id == OWNER_ID:
