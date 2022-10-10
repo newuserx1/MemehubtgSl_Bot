@@ -1098,7 +1098,7 @@ Capa one nm join wenna 😈❤️
         )     
 
 	
-bn = await get_all_banned_users()
+bn = get_all_banned_users()
 print(bn)
 
 print("""
