@@ -715,7 +715,7 @@ async def cbdel(bot, message):
 		if 'ˡᶦᵏᵉ  ᶜᵒᵐᵐᵉⁿᵗ  ˢᵃᵛᵉ  ˢʰᵃʳᵉ' in message.caption:
 			await message.edit_caption('@Memehubtgsl_bot')
 	except:
-		if 'ˡᶦᵏᵉ  ᶜᵒᵐᵐᵉⁿᵗ  ˢᵃᵛᵉ  ˢʰᵃʳᵉ' in message.caption:
+		if 'ˡᶦᵏᵉ  ᶜᵒᵐᵐᵉⁿᵗ  ˢᵃᵛᵉ  ˢʰᵃʳᵉ' in message:
 			await message.edit('@Memehubtgsl_bot')
 
 	
