@@ -1027,7 +1027,8 @@ async def tgm(bot, update):
 @Client.on_inline_query()
 async def answer(client, inline_query):
    if inline_query.query=='share':
-        await inline_query.answer(
+        print(inline_query)
+	await inline_query.answer(
             results=[
                 InlineQueryResultVideo(
                     title="Share Karapam",
