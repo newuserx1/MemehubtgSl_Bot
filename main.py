@@ -1061,21 +1061,25 @@ Post By {inline_query.from_user.mention}
             cache_time=1
         ) 
    if inline_query.query=='cshare':
-        await inline_query.answer(
+        if inline_query.from_user.username is not None:
+		nlink = f't.me/{inline_query.from_user.username}'
+        else:
+		nlink = f'tg://user?id={inline_query.from_user.id}'
+	await inline_query.answer(
             results=[
                 InlineQueryResultPhoto(
                     title="Share Karapam",
                     photo_url="https://telegra.ph/file/7ea38baec4ced63eed341.jpg",
                     caption=f"""
-අපි තමා Telegram වල හොඳටම කරලා තියෙන්නේ...😎❤️
+අපි තමා Telegram වල හොඳටම කරලා තියෙන්නේ...😎
 
 මේ අර්බුදය අප ඇඩ්මින්ලා විසින් නිර්මාණය කරන ලද්දක් නොවන බව සිහියේ තබාගන්න...🥲💔
 
 සමාවෙන්න මට වැරදුනා...🥺😂
 
-Capa one nm join wenna 😈❤️
+Capa one nm join wenna 
 
-**Post by**: {inline_query.from_user.mention}
+**Post by**: [{inline_query.from_user.first_name}]({nlink})
 """,
                     reply_markup=InlineKeyboardMarkup([[              
                  InlineKeyboardButton('MemeHub Telegram 🇱🇰', url="https://t.me/Memehub_Premium")
