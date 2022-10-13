@@ -1026,10 +1026,6 @@ async def tgm(bot, update):
 
 @Client.on_inline_query()
 async def answer(client, inline_query):
-    if inline_query.from_user.username is not None:
-    	    nmln = f't.me/{inline_query.from_user.username}'
-    if inline_query.from_user.username is None:
-	    nmln = f'tg://user?id={inline_query.from_user.id}'
     if inline_query.query=='share':
        	await inline_query.answer(
             results=[
@@ -1071,11 +1067,19 @@ Post By {inline_query.from_user.mention}
                     title="Share Karapam",
                     photo_url="https://telegra.ph/file/7ea38baec4ced63eed341.jpg",
                     caption=f"""
-අපි තමා Telegram වල හොඳටම කරලා තියෙන්නේ...😎❤️
-මේ අර්බුදය අප ඇඩ්මින්ලා විසින් නිර්මාණය කරන ලද්දක් නොවන බව සිහියේ තබාගන්න...🥲💔
-සමාවෙන්න මට වැරදුනා...🥺😂
-Capa one nm join wenna 😈❤️
-**Post by**: __[{inline_query.from_user.first_name}]({nmln})__
+MemeHub Telegram 🇱🇰
+
+📛සපිරිම ආතල් බලන්න සෙට් වෙන්න 😂😂😂
+
+⚠️රජයෙන් අපිව පත් කරලා තියෙන්නේ උබලාට memes සපයන්න⚠️ 
+
+⚜️💖අපි තමා හොඳටම කළේ💔⚜️
+
+📛Legendsලාට හොද හොද ආතල් Post තියනවා 🔞🔞🔞 
+
+📛අපේ Chat Group එක @memehubTGSL_2_Chat ❤️❤️❤️
+
+**Post by**: __{inline_query.from_user.mention}__
 """,
                     reply_markup=InlineKeyboardMarkup([[              
                  InlineKeyboardButton('MemeHub Telegram 🇱🇰', url="https://t.me/MemehubTgSl_2")
