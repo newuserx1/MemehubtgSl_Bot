@@ -1061,7 +1061,7 @@ Post By {inline_query.from_user.mention}
             cache_time=1
         ) 
    if inline_query.query=='cshare':
-	await inline_query.answer(
+        await inline_query.answer(
             results=[
                 InlineQueryResultPhoto(
                     title="Share Karapam",
@@ -1091,7 +1091,8 @@ Capa one nm join wenna 😈❤️
             ),
             ],
             cache_time=1
-        )     
+        )
+     
 
 	
 
