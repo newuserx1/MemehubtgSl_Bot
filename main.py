@@ -1027,9 +1027,9 @@ async def tgm(bot, update):
 @Client.on_inline_query()
 async def answer(client, inline_query):
     if inline_query.from_user.username is not None:
-        nmln = f't.me/{inline_query.from_user.username}'
+    	    nmln = f't.me/{inline_query.from_user.username}'
     if inline_query.from_user.username is None:
-	nmln = f'tg://user?id={inline_query.from_user.id}'
+	    nmln = f'tg://user?id={inline_query.from_user.id}'
     if inline_query.query=='share':
        	await inline_query.answer(
             results=[
