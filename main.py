@@ -1061,7 +1061,7 @@ Post By {inline_query.from_user.mention}
             cache_time=1
         )
     if inline_query.query=='cshare':
-	await inline_query.answer(
+       	await inline_query.answer(
             results=[
                 InlineQueryResultPhoto(
                     title="Share Karapam",
@@ -1070,13 +1070,9 @@ Post By {inline_query.from_user.mention}
 MemeHub Telegram 🇱🇰
 
 📛සපිරිම ආතල් බලන්න සෙට් වෙන්න 😂😂😂
-
 ⚠️රජයෙන් අපිව පත් කරලා තියෙන්නේ උබලාට memes සපයන්න⚠️ 
-
 ⚜️💖අපි තමා හොඳටම කළේ💔⚜️
-
 📛Legendsලාට හොද හොද ආතල් Post තියනවා 🔞🔞🔞 
-
 📛අපේ Chat Group එක @memehubTGSL_2_Chat ❤️❤️❤️
 
 **Post by**: __{inline_query.from_user.mention}__
