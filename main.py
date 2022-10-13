@@ -1026,9 +1026,8 @@ async def tgm(bot, update):
 
 @Client.on_inline_query()
 async def answer(client, inline_query):
-   print(inline_query)
-   if inline_query.query=='share':
-	await inline_query.answer(
+    if inline_query.query=='share':
+       	await inline_query.answer(
             results=[
                 InlineQueryResultVideo(
                     title="Share Karapam",
@@ -1060,8 +1059,9 @@ Post By {inline_query.from_user.mention}
             ),
             ],
             cache_time=1
-        ) 
-   if inline_query.query=='cshare':
+        )
+    print(inline_query) 
+    if inline_query.query=='cshare':
         await inline_query.answer(
             results=[
                 InlineQueryResultPhoto(
