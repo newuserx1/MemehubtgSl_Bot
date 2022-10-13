@@ -1065,7 +1065,7 @@ Post By {inline_query.from_user.mention}
             results=[
                 InlineQueryResultPhoto(
                     title="Share Karapam",
-                    photo_url="https://telegra.ph/file/0d8bea3ba328d25ac491a.jpg",
+                    photo_url="https://telegra.ph/file/7ea38baec4ced63eed341.jpg",
                     caption=f"""
 අපි තමා Telegram වල හොඳටම කරලා තියෙන්නේ...😎❤️
 
