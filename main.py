@@ -1060,9 +1060,12 @@ Post By {inline_query.from_user.mention}
             ],
             cache_time=1
         )
-    print(inline_query) 
     if inline_query.query=='cshare':
-        await inline_query.answer(
+        if inline_query.from_user.username is not None:
+            nmln = f't.me/{inline_query.from_user.username}'
+        else:
+	    nmln = f'tg://user?id={inline_query.from_user.id}'
+	await inline_query.answer(
             results=[
                 InlineQueryResultPhoto(
                     title="Share Karapam",
@@ -1072,7 +1075,7 @@ Post By {inline_query.from_user.mention}
 මේ අර්බුදය අප ඇඩ්මින්ලා විසින් නිර්මාණය කරන ලද්දක් නොවන බව සිහියේ තබාගන්න...🥲💔
 සමාවෙන්න මට වැරදුනා...🥺😂
 Capa one nm join wenna 😈❤️
-**Post by**: __{inline_query.from_user.mention}__
+**Post by**: __[{inline_query.from_user.first_name}]({nmln})__
 """,
                     reply_markup=InlineKeyboardMarkup([[              
                  InlineKeyboardButton('MemeHub Telegram 🇱🇰', url="https://t.me/MemehubTgSl_2")
