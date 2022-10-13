@@ -1062,9 +1062,9 @@ Post By {inline_query.from_user.mention}
         ) 
    if inline_query.query=='cshare':
         if inline_query.from_user.username is not None:
-		nlink = f't.me/{inline_query.from_user.username}'
+	    nlink = f't.me/{inline_query.from_user.username}'
         else:
-		nlink = f'tg://user?id={inline_query.from_user.id}'
+            nlink = f'tg://user?id={inline_query.from_user.id}'
 	await inline_query.answer(
             results=[
                 InlineQueryResultPhoto(
