@@ -1071,7 +1071,7 @@ Post By {inline_query.from_user.mention}
 මේ අර්බුදය අප ඇඩ්මින්ලා විසින් නිර්මාණය කරන ලද්දක් නොවන බව සිහියේ තබාගන්න...🥲💔
 සමාවෙන්න මට වැරදුනා...🥺😂
 Capa one nm join wenna 😈❤️
-**Post by**: [{inline_query.from_user.first_name}]({nmln})
+**Post by**: __{inline_query.from_user.mention}__
 """,
                     reply_markup=InlineKeyboardMarkup([[              
                  InlineKeyboardButton('MemeHub Telegram 🇱🇰', url="https://t.me/MemehubTgSl_2")
