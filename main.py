@@ -1026,8 +1026,8 @@ async def tgm(bot, update):
 
 @Client.on_inline_query()
 async def answer(client, inline_query):
+   print(inline_query)
    if inline_query.query=='share':
-        print(inline_query)
 	await inline_query.answer(
             results=[
                 InlineQueryResultVideo(
